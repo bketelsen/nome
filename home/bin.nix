@@ -67,7 +67,7 @@ in
     (cd ~/nx/nixpkgs && git grep $1)
   '')
   (script "proj" ''
-    nix flake init --template github:the-nix-way/nome
+    nix flake init --template github:bketelsen/nome
   '')
   (script "wo" ''
     ${checkForArg1 "no executable specified"}
@@ -111,10 +111,10 @@ in
   (script "dvs" ''
     ${checkForArg1 "no template specified"}
 
-    nix flake init --template github:the-nix-way/nome#$1
+    nix flake init --template github:bketelsen/nome#$1
   '')
 
   (script "cfg" ''
-    code ${homeDirectory}/the-nix-way/nome
+    code-insiders ${homeDirectory}/nome
   '')
 ]

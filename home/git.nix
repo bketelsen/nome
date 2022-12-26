@@ -4,8 +4,8 @@
 
 {
   enable = true;
-  userName = "Luc Perkins";
-  userEmail = "lucperkins@gmail.com";
+  userName = "Brian Ketelsen";
+  userEmail = "bketelsen@gmail.com";
   package = pkgs.gitAndTools.gitFull;
 
   delta = { enable = true; };
@@ -32,14 +32,14 @@
       whitespace = "trailing-space,space-before-tab";
     };
 
-    commit.gpgsign = "true";
-    gpg.program = "gpg2";
+    #commit.gpgsign = "true";
+    #gpg.program = "gpg2";
 
-    protocol.keybase.allow = "always";
+    #protocol.keybase.allow = "always";
     credential.helper = "osxkeychain";
     pull.rebase = "false";
     init.defaultBranch = "main";
 
-    user = { signingkey = "3987C314C5E59CBF"; };
+    #user = { signingkey = "3987C314C5E59CBF"; };
   };
 }

@@ -95,16 +95,10 @@ in
       sha256 = "sha256-hl5ZC2y5umdbUXbufnM+dn2O5cyfgOZwE1AsrKUsOyU=";
     })
     (extension {
-      publisher = "sebsojeda";
-      name = "vscode-svx";
-      version = " 1.0.0";
-      sha256 = "sha256-5YLeTJrkQsJSjYMmZMDJ0sVvvbhuQCdr2hhHIROb094=";
-    })
-    (extension {
       publisher = "antfu";
       name = "unocss";
       version = "0.47.6";
-      sha256 = "sha256-t+Z5EOpAtD5mxKdmumBt20JkOLJkViqcDxPlkzs0oeE=";
+      sha256 = "sha256-Rgk3SIKBzDoo5rJAXWFZuwMtAEMZViollYVjEYvyLbA=";
     })
     (extension {
       publisher = "svelte";

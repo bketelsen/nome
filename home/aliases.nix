@@ -40,12 +40,7 @@
     npm = "pnpm";
     szsh = "source ~/.zshrc";
     tf = "terraform";
-    tg = "terragrunt";
     zj = "zellij";
-
-    # kubectl
-    k = "kubectl";
-    kx = "kubectx";
 
     # Direnv helpers
     da = "direnv allow";

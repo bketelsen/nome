@@ -52,6 +52,8 @@ let
 
   # I'll categorize these later :)
   misc = with pkgs; [
+    btop
+    htop
     coreutils
     findutils
     gleam

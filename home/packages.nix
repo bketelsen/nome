@@ -49,43 +49,41 @@ let
     pnpm
     yarn
   ];
-
-  # I'll categorize these later :)
-  misc = with pkgs; [
+  # Shell tools
+  shell = with pkgs; [
     btop
     htop
+    lazygit
+    ripgrep
+    tree
+    tree-sitter
+    xz
+  ];
+  # I'll categorize these later :)
+  misc = with pkgs; [
     coreutils
     findutils
     gleam
     htmltest
     hugo
-    keybase
     libiconv
-    litestream
     ncurses
     nodejs-16_x
-    open-policy-agent
     openssl
     pikchr
     pinentry_mac
     pkg-config
     reattach-to-user-namespace # for tmux
-    skopeo
     sqlite
-    statix
     stow
     subversion
     tailscale
     tree
     treefmt
     vale
-    vector
     watchexec
     wget
-    youtube-dl
-    yt-dlp
     zellij
-    zola
     zstd
   ];
 
@@ -133,6 +131,7 @@ bin
 ++ macTools
 ++ jsTools
 ++ misc
+++ shell
 ++ nixTools
 ++ pythonTools
 ++ rustTools

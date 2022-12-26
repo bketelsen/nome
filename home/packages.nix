@@ -12,7 +12,6 @@ let
   };
 
   buildTools = with pkgs; [
-    bazelisk
     buf
     bun
     cmake
@@ -21,22 +20,14 @@ let
 
   configTools = with pkgs; [
     cue
-    dhall
   ];
 
-  databaseTools = with pkgs; [ postgresql_14 refinery-cli ];
-
   devOpsTools = with pkgs; [
-    dagger
-    dapr-cli
-    dive
-    doctl
     doppler
     flyctl
     heroku
     packer
     terraform
-    terragrunt
   ];
 
   fonts = with pkgs.nerdfonts;
@@ -46,17 +37,7 @@ let
     [ diff-so-fancy git-codeowners gitflow ]
     ++ (with pkgs; [ difftastic git-annex git-crypt ]);
 
-  javaTools = with pkgs; [
-    gradle
-    maven
-  ];
 
-  kubernetesTools = with pkgs; [
-    kubectx
-    kubectl
-    minikube
-    tilt
-  ];
 
   macTools = with pkgs.darwin.apple_sdk.frameworks; [
     CoreServices
@@ -71,7 +52,6 @@ let
 
   # I'll categorize these later :)
   misc = with pkgs; [
-    comma
     coreutils
     findutils
     gleam
@@ -148,7 +128,6 @@ bin
 ++ devOpsTools
 ++ fonts
 ++ gitTools
-++ kubernetesTools
 ++ macTools
 ++ jsTools
 ++ misc

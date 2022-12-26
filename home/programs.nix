@@ -65,10 +65,10 @@
   jq.enable = true;
 
   # make replacement
-  just = {
-    enable = true;
-    enableZshIntegration = true;
-  };
+  #just = {
+  #  enable = true;
+  #  enableZshIntegration = true;
+  #};
 
   # Kitty terminal emulator
   kitty = {

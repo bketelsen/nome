@@ -34,6 +34,7 @@
     "," = "comma";
     htop = "btop";
     cat = "bat";
+    catp = "bat -pp";
     conf = "code ~/.config/nixpkgs";
     dc = "docker compose";
     diff = "diff --color=auto";

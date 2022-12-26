@@ -84,6 +84,7 @@ let
     wget
     youtube-dl
     yt-dlp
+    zellij
     zola
     zstd
   ];

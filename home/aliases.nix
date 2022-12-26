@@ -32,6 +32,7 @@
   shell = {
     # General
     "," = "comma";
+    htop = "btop";
     cat = "bat";
     conf = "code ~/.config/nixpkgs";
     dc = "docker compose";

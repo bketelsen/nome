@@ -124,7 +124,6 @@ bin
 ++ local
 ++ buildTools
 ++ configTools
-++ databaseTools
 ++ devOpsTools
 ++ fonts
 ++ gitTools

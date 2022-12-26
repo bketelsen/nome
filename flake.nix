@@ -20,7 +20,7 @@
       # Constants
       stateVersion = "22.11";
       system = "aarch64-darwin";
-      username = "lucperkins";
+      username = "bjk";
       homeDirectory = self.lib.getHomeDirectory username;
 
       # System-specific Nixpkgs
